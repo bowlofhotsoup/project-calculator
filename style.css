@@ -11,11 +11,11 @@
 #container{
     background-color: black;
     border: 10px solid black;
-    border-radius: 4px;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(100px, auto) repeat(5, 80px);
-    gap: 2px;
+    gap: 1px;
 }
 
 #display{
